@@ -6,11 +6,6 @@ soong_namespace {
     imports: [
         "device/oneplus/sm6375-common",
         "hardware/oplus",
-        "hardware/qcom/wlan",
-        "vendor/qcom/opensource/commonsys-intf/display",
-        "vendor/qcom/opensource/commonsys/display",
-        "vendor/qcom/opensource/dataservices",
-        "vendor/qcom/opensource/display",
     ],
 }
 
@@ -10269,6 +10264,7 @@ cc_prebuilt_library_shared {
     soc_specific: true,
 }
 
+/*
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.fm@1.0",
     owner: "oneplus",
@@ -10296,6 +10292,7 @@ cc_prebuilt_library_shared {
     prefer: true,
     soc_specific: true,
 }
+*/
 
 cc_prebuilt_library_shared {
     name: "vendor.qti.hardware.mwqemadapter@1.0",
